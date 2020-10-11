@@ -1,0 +1,1048 @@
+fileFormatVersion: 2
+guid: 117872451ff95ff44821539920dc4ee7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1695673205979286997
+    second: SnowUnderworldTiles_0
+  - first:
+      213: -4417937485640766618
+    second: SnowUnderworldTiles_1
+  - first:
+      213: 4142074351543534227
+    second: SnowUnderworldTiles_2
+  - first:
+      213: -8983122315213552043
+    second: SnowUnderworldTiles_3
+  - first:
+      213: -7794943354974137046
+    second: SnowUnderworldTiles_4
+  - first:
+      213: 5520721832855465147
+    second: SnowUnderworldTiles_5
+  - first:
+      213: -1756012087207448315
+    second: SnowUnderworldTiles_6
+  - first:
+      213: -1875773599772338036
+    second: SnowUnderworldTiles_7
+  - first:
+      213: -2342225554753530997
+    second: SnowUnderworldTiles_8
+  - first:
+      213: -8609938542247903288
+    second: SnowUnderworldTiles_9
+  - first:
+      213: 2955489572970457780
+    second: SnowUnderworldTiles_10
+  - first:
+      213: -5278168526090588584
+    second: SnowUnderworldTiles_11
+  - first:
+      213: -1840608837337075046
+    second: SnowUnderworldTiles_12
+  - first:
+      213: -2593727265358379910
+    second: SnowUnderworldTiles_13
+  - first:
+      213: 3687296078942965649
+    second: SnowUnderworldTiles_14
+  - first:
+      213: 2514286864707833008
+    second: SnowUnderworldTiles_15
+  - first:
+      213: 6788824415029552957
+    second: SnowUnderworldTiles_16
+  - first:
+      213: -7506887165356476703
+    second: SnowUnderworldTiles_17
+  - first:
+      213: -9162398963819809530
+    second: SnowUnderworldTiles_18
+  - first:
+      213: 6292172944207641824
+    second: SnowUnderworldTiles_19
+  - first:
+      213: -3068392813614982147
+    second: SnowUnderworldTiles_20
+  - first:
+      213: -2532849860561987087
+    second: SnowUnderworldTiles_21
+  - first:
+      213: -5923549192327202614
+    second: SnowUnderworldTiles_22
+  - first:
+      213: -1810895449082728714
+    second: SnowUnderworldTiles_23
+  - first:
+      213: -6626952061156728282
+    second: SnowUnderworldTiles_24
+  - first:
+      213: 6003743579805442474
+    second: SnowUnderworldTiles_25
+  - first:
+      213: 8455553281569314544
+    second: SnowUnderworldTiles_26
+  - first:
+      213: 5416884215766740850
+    second: SnowUnderworldTiles_27
+  - first:
+      213: 6329174621926962619
+    second: SnowUnderworldTiles_28
+  - first:
+      213: -3699442841291660896
+    second: SnowUnderworldTiles_29
+  - first:
+      213: 4752765762883975186
+    second: SnowUnderworldTiles_30
+  - first:
+      213: 3874997833796190587
+    second: SnowUnderworldTiles_31
+  - first:
+      213: 8442485698526715174
+    second: SnowUnderworldTiles_32
+  - first:
+      213: 3743543618203670729
+    second: SnowUnderworldTiles_33
+  - first:
+      213: -2903069481624022418
+    second: SnowUnderworldTiles_34
+  - first:
+      213: 6127049747677901922
+    second: SnowUnderworldTiles_35
+  - first:
+      213: 6234220933834815212
+    second: SnowUnderworldTiles_36
+  - first:
+      213: -1624625260950724330
+    second: SnowUnderworldTiles_37
+  - first:
+      213: -7240915141176004949
+    second: SnowUnderworldTiles_38
+  - first:
+      213: 8086203343478660632
+    second: SnowUnderworldTiles_39
+  - first:
+      213: 838369923642613890
+    second: SnowUnderworldTiles_40
+  - first:
+      213: 5347078212761270869
+    second: SnowUnderworldTiles_41
+  - first:
+      213: -370316268560097660
+    second: SnowUnderworldTiles_42
+  - first:
+      213: 2799293537585162926
+    second: SnowUnderworldTiles_43
+  - first:
+      213: 6234376099927860262
+    second: SnowUnderworldTiles_44
+  - first:
+      213: 1051214793946996460
+    second: SnowUnderworldTiles_45
+  - first:
+      213: 124550691236927444
+    second: SnowUnderworldTiles_46
+  - first:
+      213: -6816959241041598934
+    second: SnowUnderworldTiles_47
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SnowUnderworldTiles_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 184
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dd0b89fbcd388710800000000000000
+      internalID: 1695673205979286997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowUnderworldTiles_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 184
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66bef78934550b2c0800000000000000
+      internalID: -4417937485640766618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowUnderworldTiles_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 184
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39242055daa9b7930800000000000000
+      internalID: 4142074351543534227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowUnderworldTiles_3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 184
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 556cfc359d9855380800000000000000
+      internalID: -8983122315213552043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowUnderworldTiles_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 167
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a25997a615cc2d390800000000000000
+      internalID: -7794943354974137046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowUnderworldTiles_5
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 167
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbce717c14b8d9c40800000000000000
+      internalID: 5520721832855465147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowUnderworldTiles_6
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 167
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50135b87f4461a7e0800000000000000
+      internalID: -1756012087207448315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowUnderworldTiles_7
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 167
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c88938a69d9e7f5e0800000000000000
+      internalID: -1875773599772338036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowUnderworldTiles_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 150
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b83d211844ebe7fd0800000000000000
+      internalID: -2342225554753530997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowUnderworldTiles_9
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 150
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cf7e53638a538880800000000000000
+      internalID: -8609938542247903288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowUnderworldTiles_10
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 150
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ba66469b12040920800000000000000
+      internalID: 2955489572970457780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowUnderworldTiles_11
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 150
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85e29b1c0bd20c6b0800000000000000
+      internalID: -5278168526090588584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowUnderworldTiles_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 133
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a923410b308d476e0800000000000000
+      internalID: -1840608837337075046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowUnderworldTiles_13
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 133
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7481185bca310cd0800000000000000
+      internalID: -2593727265358379910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowUnderworldTiles_14
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 133
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19f06176f38eb2330800000000000000
+      internalID: 3687296078942965649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowUnderworldTiles_15
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 133
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bc475a059a84e220800000000000000
+      internalID: 2514286864707833008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowUnderworldTiles_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 116
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d37e55436dfb63e50800000000000000
+      internalID: 6788824415029552957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowUnderworldTiles_17
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 116
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e6fcf375ed22d790800000000000000
+      internalID: -7506887165356476703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowUnderworldTiles_18
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 116
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 605fc17dfae98d080800000000000000
+      internalID: -9162398963819809530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowUnderworldTiles_19
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 116
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ecf1d494f9425750800000000000000
+      internalID: 6292172944207641824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowUnderworldTiles_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 99
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfb1e193ef0ea65d0800000000000000
+      internalID: -3068392813614982147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowUnderworldTiles_21
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 99
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f91ecfa87289dcd0800000000000000
+      internalID: -2532849860561987087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowUnderworldTiles_22
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 99
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac8f8c5d4635bcda0800000000000000
+      internalID: -5923549192327202614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowUnderworldTiles_23
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 99
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fe6d000f286ed6e0800000000000000
+      internalID: -1810895449082728714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowUnderworldTiles_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 82
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 622e53326365804a0800000000000000
+      internalID: -6626952061156728282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowUnderworldTiles_25
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 82
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa1e5d40af4915350800000000000000
+      internalID: 6003743579805442474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowUnderworldTiles_26
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 82
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f6d35ff8e8285570800000000000000
+      internalID: 8455553281569314544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowUnderworldTiles_27
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 82
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27f623e8e73ac2b40800000000000000
+      internalID: 5416884215766740850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowUnderworldTiles_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 65
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb5bf5509ceb5d750800000000000000
+      internalID: 6329174621926962619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowUnderworldTiles_29
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 65
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a1e2f91650f8acc0800000000000000
+      internalID: -3699442841291660896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowUnderworldTiles_30
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 65
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2187655b74735f140800000000000000
+      internalID: 4752765762883975186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowUnderworldTiles_31
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 65
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7184dccff1c6c530800000000000000
+      internalID: 3874997833796190587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowUnderworldTiles_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62d100a330cb92570800000000000000
+      internalID: 8442485698526715174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowUnderworldTiles_33
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c8d53c261db3f330800000000000000
+      internalID: 3743543618203670729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowUnderworldTiles_34
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e62d58500b936b7d0800000000000000
+      internalID: -2903069481624022418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowUnderworldTiles_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 31
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 264fc737847a70550800000000000000
+      internalID: 6127049747677901922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowUnderworldTiles_36
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 31
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce63784b8e6648650800000000000000
+      internalID: 6234220933834815212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnowUnderworldTiles_37
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 14
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 611e7ebceeb2479e0800000000000000
+      internalID: -1624625260950724330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

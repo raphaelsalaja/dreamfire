@@ -9,6 +9,7 @@ public class Movement : MonoBehaviour
     private Collision coll;
     [HideInInspector]
     public Rigidbody2D rb;
+    private ScriptAnimation anim;
 
     [Space]
     [Header("Stats")]
@@ -50,6 +51,18 @@ public class Movement : MonoBehaviour
     {
         coll = GetComponent<Collision>();
         rb = GetComponent<Rigidbody2D>();
+        anim = GetComponentInChildren<ScriptAnimation>();
+    }
+
+    private void FixedUpdate()
+    {
+        // UPDATE VARIABLES //
+        float x = Input.GetAxis("Horizontal");
+        float y = Input.GetAxis("Vertical");
+        Vector2 dir = new Vector2(x, y);
+        // WALKING //
+        Walk(dir);
+        anim.SetHorizontalMovement(x, y, rb.velocity.y);
     }
 
     private void Update()
@@ -59,14 +72,18 @@ public class Movement : MonoBehaviour
         float y = Input.GetAxis("Vertical");
         float xRaw = Input.GetAxisRaw("Horizontal");
         float yRaw = Input.GetAxisRaw("Vertical");
-        Vector2 dir = new Vector2(x, y);
+        
 
-        // WALKING //
-        Walk(dir);
+        
 
         // START WALL GRAB / SLIDE //
         if (coll.onWall && Input.GetButton("Fire3") && canMove)
         {
+
+            if (side != coll.wallSide)
+            {
+                anim.Flip(side * -1);
+            }
             wallGrab = true;
             wallSlide = false;
         }
@@ -160,14 +177,21 @@ public class Movement : MonoBehaviour
             return;
         }
 
-        // HANDLE SIDES //
+       // if (!wallGrab || !wallSlide  !canMove)
+       // {
+        //    return;
+       // }
+
+        // Handle Sides
         if (x > 0)
         {
             side = 1;
+            anim.Flip(side);
         }
         if (x < 0)
         {
             side = -1;
+            anim.Flip(side);
         }
     }
 
@@ -179,6 +203,10 @@ public class Movement : MonoBehaviour
 
     private void WallSlide()
     {
+        if (coll.wallSide != side)
+        {
+            anim.Flip(side * -1);
+        }
         if (!canMove)
         {
             return;
@@ -199,6 +227,7 @@ public class Movement : MonoBehaviour
         if ((side == 1 && coll.onRightWall) || side == -1 && !coll.onRightWall)
         {
             side *= -1;
+            anim.Flip(side);
         }
 
         StopCoroutine(DisableMovement(0));
@@ -289,27 +318,6 @@ public class Movement : MonoBehaviour
     void RigidbodyDrag(float x)
     {
         rb.drag = x;
-    }
-
-    int ParticleSide()
-    {
-        int particleSide = coll.onRightWall ? 1 : -1;
-        return particleSide;
-    }
-
-    void WallParticle(float vertical)
-    {
-        var main = wallSlideFX.main;
-
-        if (wallSlide || (wallGrab && vertical < 0))
-        {
-            wallSlideFX.transform.parent.localScale = new Vector3(ParticleSide(), 1, 1);
-            main.startColor = Color.white;
-        }
-        else
-        {
-            main.startColor = Color.clear;
-        }
     }
 
     void CreateDashFX()
