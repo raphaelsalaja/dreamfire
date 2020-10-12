@@ -54,16 +54,7 @@ public class Movement : MonoBehaviour
         anim = GetComponentInChildren<ScriptAnimation>();
     }
 
-    private void FixedUpdate()
-    {
-        // UPDATE VARIABLES //
-        float x = Input.GetAxis("Horizontal");
-        float y = Input.GetAxis("Vertical");
-        Vector2 dir = new Vector2(x, y);
-        // WALKING //
-        Walk(dir);
-        anim.SetHorizontalMovement(x, y, rb.velocity.y);
-    }
+ 
 
     private void Update()
     {
@@ -72,9 +63,11 @@ public class Movement : MonoBehaviour
         float y = Input.GetAxis("Vertical");
         float xRaw = Input.GetAxisRaw("Horizontal");
         float yRaw = Input.GetAxisRaw("Vertical");
-        
+        Vector2 dir = new Vector2(x, y);
+        // WALKING //
+        Walk(dir);
+        anim.SetHorizontalMovement(x, y, rb.velocity.y);
 
-        
 
         // START WALL GRAB / SLIDE //
         if (coll.onWall && Input.GetButton("Fire3") && canMove)
@@ -112,6 +105,8 @@ public class Movement : MonoBehaviour
             float speedModifier = y > 0 ? .5f : 1;
 
             rb.velocity = new Vector2(rb.velocity.x, y * (speed * speedModifier));
+
+            anim.Flip(side);
         }
         else
         {
@@ -177,10 +172,10 @@ public class Movement : MonoBehaviour
             return;
         }
 
-       // if (!wallGrab || !wallSlide  !canMove)
-       // {
+        //if (!wallGrab || !wallSlide ||  !canMove)
+        //{
         //    return;
-       // }
+        //}
 
         // Handle Sides
         if (x > 0)
@@ -193,6 +188,7 @@ public class Movement : MonoBehaviour
             side = -1;
             anim.Flip(side);
         }
+
     }
 
     private void GroundTouch()
@@ -266,6 +262,7 @@ public class Movement : MonoBehaviour
     {
         rb.velocity = new Vector2(rb.velocity.x, 0);
         rb.velocity += dir * jumpForce;
+        
     }
 
     private void Dash(float x, float y)
@@ -282,11 +279,9 @@ public class Movement : MonoBehaviour
 
     private IEnumerator DashWait()
     {
-        // FindObjectOfType<GhostTrail>().ShowGhost();
         StartCoroutine(GroundDash());
         DOVirtual.Float(14, 0, .8f, RigidbodyDrag);
 
-        // dashParticle.Play();
         rb.gravityScale = 0;
         GetComponent<Jumping>().enabled = false;
         wallJumped = true;
@@ -294,7 +289,6 @@ public class Movement : MonoBehaviour
 
         yield return new WaitForSeconds(.3f);
 
-        // dashParticle.Stop();
         rb.gravityScale = 3;
         GetComponent<Jumping>().enabled = true;
         wallJumped = false;
@@ -324,5 +318,5 @@ public class Movement : MonoBehaviour
     {
         dashFX.Play();
     }
-    
+
 }
