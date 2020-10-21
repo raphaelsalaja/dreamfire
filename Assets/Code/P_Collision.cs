@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Collision : MonoBehaviour
+public class P_Collision : MonoBehaviour
 {
     [Header("Layers")]
     public LayerMask groundLayer;

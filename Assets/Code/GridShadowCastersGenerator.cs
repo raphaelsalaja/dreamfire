@@ -74,6 +74,7 @@ public class GridShadowCastersGenerator : MonoBehaviour {
             }
         }
 
+
         // create new ones
 
         for (int y = 0; y < countY; y++) {

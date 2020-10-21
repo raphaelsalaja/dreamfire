@@ -8,6 +8,7 @@ public class PlayerAimWeapon : MonoBehaviour
 {
     private Transform aimTransform;
     private Animator aimAnimator;
+    public Camera worldCamera;
     private void Awake()
     {
         aimTransform = transform.Find("Aim");

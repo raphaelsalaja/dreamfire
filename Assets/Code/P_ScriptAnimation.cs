@@ -2,25 +2,25 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ScriptAnimation: MonoBehaviour
+public class P_ScriptAnimation : MonoBehaviour
 {
 
     private Animator anim;
-    private Movement move;
-    private Collision coll;
+    private P_Movement move;
+    private P_Collision coll;
     [HideInInspector]
     public SpriteRenderer sr;
 
     void Start()
     {
         anim = GetComponent<Animator>();
-        coll = GetComponentInParent<Collision>();
-        move = GetComponentInParent<Movement>();
+        coll = GetComponentInParent<P_Collision>();
+        move = GetComponentInParent<P_Movement>();
         sr = GetComponent<SpriteRenderer>();
     }
 
     void Update()
-    { 
+    {
         /*
         anim.SetBool("onGround", coll.onGround);
         anim.SetBool("onWall", coll.onWall);
@@ -32,7 +32,7 @@ public class ScriptAnimation: MonoBehaviour
         */
     }
 
-    public void SetHorizontalMovement(float x,float y, float yVel)
+    public void SetHorizontalMovement(float x, float y, float yVel)
     {
         anim.SetFloat("HorizontalAxis", x);
         anim.SetFloat("VerticalAxis", y);

@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public class Jumping : MonoBehaviour
+public class P_Jumping : MonoBehaviour
 {
     public Rigidbody2D rb;
     // Start is called before the first frame update
@@ -14,7 +14,7 @@ public class Jumping : MonoBehaviour
 
     // Update is called once per frame
 
-    private void Update()
+    private void FixedUpdate()
     {
         if (rb.velocity.y < 0)
         {
