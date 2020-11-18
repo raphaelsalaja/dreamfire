@@ -15,7 +15,7 @@ TagManager:
   - 
   - 
   - Ground
-  - 
+  - Player
   - 
   - 
   - 
@@ -42,6 +42,18 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: BackGround
+    uniqueID: 817845363
+    locked: 0
+  - name: DecorationsBack
+    uniqueID: 354588185
+    locked: 0
+  - name: Tiles
+    uniqueID: 3646037405
+    locked: 0
   - name: Player
     uniqueID: 2808506655
+    locked: 0
+  - name: DecorationsFront
+    uniqueID: 3533833557
     locked: 0
