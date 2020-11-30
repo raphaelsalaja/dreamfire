@@ -5,6 +5,11 @@ TagManager:
   serializedVersion: 2
   tags:
   - GenerateShadowCasters
+  - Enemy
+  - Exit
+  - Game Controller
+  - Star
+  - CheckpointManager
   layers:
   - Default
   - TransparentFX
@@ -51,9 +56,18 @@ TagManager:
   - name: Tiles
     uniqueID: 3646037405
     locked: 0
+  - name: DecorationsFront
+    uniqueID: 3533833557
+    locked: 0
   - name: Player
     uniqueID: 2808506655
     locked: 0
-  - name: DecorationsFront
-    uniqueID: 3533833557
+  - name: FX
+    uniqueID: 90198713
+    locked: 0
+  - name: UI-GUI
+    uniqueID: 3383265017
+    locked: 0
+  - name: Mouse
+    uniqueID: 293454929
     locked: 0

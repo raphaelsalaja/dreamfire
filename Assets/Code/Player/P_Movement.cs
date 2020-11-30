@@ -29,10 +29,8 @@ public class P_Movement : MonoBehaviour
     public bool isSprinting;
 
     [Space]
-
     private bool groundTouch;
     private bool hasDashed;
-
     public int side = -1;
 
     [Space]
@@ -43,7 +41,6 @@ public class P_Movement : MonoBehaviour
     public ParticleSystem slideParticle;
     public ParticleSystem sprintParticle;
 
-    // Start is called before the first frame update
     void Start()
     {
         coll = GetComponent<P_Collision>();
@@ -51,7 +48,6 @@ public class P_Movement : MonoBehaviour
         anim = GetComponentInChildren<P_ScriptAnimation>();
     }
 
-    // Update is called once per frame
     void Update()
     {
         float x = Input.GetAxis("Horizontal");
@@ -74,6 +70,7 @@ public class P_Movement : MonoBehaviour
             GetComponent<P_Jumping>().enabled = true;
         }
 
+Debug.Log(x);
 
         if (coll.onWall && !coll.onGround)
         {
@@ -81,7 +78,7 @@ public class P_Movement : MonoBehaviour
             {
                 wallSlide = true;
                 WallSlide();
-            }
+           }
         }
 
         if (!coll.onWall || coll.onGround)
@@ -106,12 +103,10 @@ public class P_Movement : MonoBehaviour
         if (Input.GetButton("Fire3"))
         {
             isSprinting = true;
-
         }
         else
         {
             isSprinting = false;
-            //sprintParticle.Stop();
         }
 
         if (coll.onGround && !groundTouch)
@@ -129,7 +124,17 @@ public class P_Movement : MonoBehaviour
         SprintParticle(x);
 
         if (wallSlide || !canMove)
+        {
             return;
+        }
+
+        if(wallSlide && !coll.onWall){
+            return;
+        }
+
+        // if(!coll.onGround ){
+        //     WallSlide();
+        // }
 
         if (x > 0)
         {
@@ -141,8 +146,6 @@ public class P_Movement : MonoBehaviour
             side = -1;
             anim.Flip(side);
         }
-
-
     }
 
     void GroundTouch()
@@ -159,7 +162,6 @@ public class P_Movement : MonoBehaviour
     {
         Camera.main.transform.DOComplete();
         Camera.main.transform.DOShakePosition(.2f, .5f, 14, 90, false, true);
-        // FindObjectOfType<RippleEffect>().Emit(Camera.main.WorldToViewportPoint(transform.position));
 
         hasDashed = true;
 
@@ -220,8 +222,7 @@ public class P_Movement : MonoBehaviour
 
     private void WallSlide()
     {
-        //  if (coll.wallSide != side)
-        //anim.Flip(side * -1);
+        hasDashed = false;
 
         if (!canMove)
             return;
@@ -239,12 +240,12 @@ public class P_Movement : MonoBehaviour
     private void Walk(Vector2 dir)
     {
         if (!canMove)
+        {
             return;
-
+        }
 
         if (!wallJumped)
         {
-            //rb.velocity = Vector2.Lerp(rb.velocity, (new Vector2(dir.x * speed, rb.velocity.y)), 50 * Time.deltaTime);
             rb.velocity = new Vector2(dir.x * speed, rb.velocity.y);
 
             if (isSprinting)

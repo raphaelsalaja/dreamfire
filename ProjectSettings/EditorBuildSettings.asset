@@ -6,6 +6,30 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Prototyping.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/Code/Procedural Generation/Menus/Main Menu.unity
+    guid: 451789859cef2f54e94f257f4cff3f8d
+  - enabled: 1
+    path: Assets/Code/Procedural Generation/Menus/Story.unity
+    guid: d6869e380baefb74e980072e29e04da9
+  - enabled: 1
+    path: Assets/Code/Procedural Generation/Menus/Controls.unity
+    guid: 06202ea0c449d6b4e8d1aea2c84c2511
+  - enabled: 1
+    path: Assets/Scenes/Levels/Level_1.unity
+    guid: 8ff48ed541133cb4e8a2d7208a8c6306
+  - enabled: 1
+    path: Assets/Scenes/Levels/Level_2.unity
+    guid: 98614c4f4e9b0c64aa5254ef6cebc479
+  - enabled: 1
+    path: Assets/Scenes/Levels/Level_3.unity
+    guid: 7e9e080dc99a19a4999887c2e543535b
+  - enabled: 1
+    path: Assets/Code/Procedural Generation/Menus/Game Over.unity
+    guid: 5ba6bf162a0df6944ae94ee397a5ff8c
+  - enabled: 1
+    path: Assets/Code/Procedural Generation/Menus/Win Game.unity
+    guid: 32fc5a766a341a1438a201c860bd0e2f
+  - enabled: 1
+    path: Assets/Code/Procedural Generation/Menus/Results.unity
+    guid: 6155ffc806fb3cb479d192aa8f21aaef
   m_configObjects: {}
