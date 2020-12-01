@@ -70,8 +70,6 @@ public class P_Movement : MonoBehaviour
             GetComponent<P_Jumping>().enabled = true;
         }
 
-Debug.Log(x);
-
         if (coll.onWall && !coll.onGround)
         {
             if (x != 0)
@@ -156,6 +154,8 @@ Debug.Log(x);
         side = anim.sr.flipX ? -1 : 1;
 
         jumpParticle.Play();
+        
+         FindObjectOfType<AudioManager>().Play("Land");
     }
 
     private void Dash(float x, float y)
@@ -172,6 +172,8 @@ Debug.Log(x);
 
         rb.velocity += dir.normalized * dashSpeed;
         StartCoroutine(DashWait());
+        
+         FindObjectOfType<AudioManager>().Play("Dash");
     }
 
     IEnumerator DashWait()
@@ -273,6 +275,7 @@ Debug.Log(x);
         rb.velocity += dir * jumpForce;
 
         particle.Play();
+         FindObjectOfType<AudioManager>().Play("Land");
     }
 
     IEnumerator DisableMovement(float time)

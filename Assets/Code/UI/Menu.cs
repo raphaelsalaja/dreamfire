@@ -46,6 +46,10 @@ public class Menu : MonoBehaviour
     {
         StartCoroutine(LoadLevel(nextLevel));
     }
+    public void GoCredits()
+    {
+        StartCoroutine(LoadLevel(9));
+    }
 
     public void QuitGame()
     {

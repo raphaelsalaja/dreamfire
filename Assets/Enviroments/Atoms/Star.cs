@@ -23,6 +23,8 @@ public class Star : MonoBehaviour
             GameController.starsCollected += 1;
             Instantiate(StarParticles, transform.position, Quaternion.identity);
             Destroy(gameObject);
+            
+         FindObjectOfType<AudioManager>().Play("StarCollect");
         }
 
     }

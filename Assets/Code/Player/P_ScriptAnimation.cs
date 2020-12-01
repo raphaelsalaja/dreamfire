@@ -59,4 +59,25 @@ public class P_ScriptAnimation : MonoBehaviour
         bool state = (side == 1) ? false : true;
         sr.flipX = state;
     }
+
+    void ChooseFootstep()
+    {
+        float RandomValue = UnityEngine.Random.value;
+        if (RandomValue <= 0.2)
+        {
+            FindObjectOfType<AudioManager>().Play("Footstep");
+        }
+        else if (RandomValue >= 0.2 && RandomValue < 0.4)
+        {
+            FindObjectOfType<AudioManager>().Play("Footstep1");
+        }
+        else if (RandomValue >= 0.4 && RandomValue < 0.8)
+        {
+            FindObjectOfType<AudioManager>().Play("Footstep2");
+        }
+        else if (RandomValue >= 0.8 && RandomValue <= 1)
+        {
+            FindObjectOfType<AudioManager>().Play("Footstep3");
+        }
+    }
 }
